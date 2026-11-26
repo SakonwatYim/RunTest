@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dacf7fb13c4f2434291724af1775a567, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: RunChildRun::RunChildRun.GameConfig
+  UnitsPerGduUnit: 0.01
+  ArenaHalfWidth: 2880
+  ArenaHalfHeight: 1350
+  ArenaCornerCut: 700
+  ViewHeight: 1080
+  PlayerMaxHp: 100
+  PlayerSpeed: 420
+  PlayerRadius: 40
+  DashDistance: 450
+  DashDuration: 0.2
+  DashCooldown: 6
+  HitIFrames: 0.6
+  LevelUpIFrames: 1.5
+  EarlyDamageWindow: 20
+  EarlyDamageMultiplier: 0.5
+  ExpBase: 8
+  ExpLinear: 6
+  ExpQuadratic: 0.35
+  TimeExpUnarmed: 1
+  TimeExpArmed: 0.25
+  LevelUpChoices: 3
+  RerollsPerRun: 1
+  LevelUpSelectLock: 1
+  MaxExpSparksPerFrame: 4
+  FirstItemTime: 12
+  SecondItemTime: 40
+  RandomItemIntervalMin: 25
+  RandomItemIntervalMax: 40
+  ItemGroundLifetime: 45
+  BadLuckUnarmedTime: 20
+  PickupRadius: 80
+  ItemMinEnemyDistances:
+  - 520
+  - 380
+  - 260
+  ItemSpawnAttempts: 40
+  ItemRetryDelay: 1.5
+  ItemMinPlayerDistance: 380
+  ItemMaxPlayerDistance: 700
+  ItemMaxAbovePlayer: 380
+  ItemMinObstacleDistance: 250
+  EarlySkillWeightedItems: 3
+  EarlySkillChance: 0.9
+  SkillItemWeight: 70
+  StatItemWeight: 22
+  HealItemWeight: 8
+  LowHpHealWeightMultiplier: 3
+  LowHpThreshold: 0.4
+  HealAmountFraction: 0.3
+  EliteItemDropChance: 0.25
+  RarityWeights:
+  - 70
+  - 25
+  - 5
+  RaritySkillDurations:
+  - 45
+  - 60
+  - 75
+  LuckRareWeightPerLevel: 5
+  LuckEpicWeightPerLevel: 2.5
+  RarityColors:
+  - {r: 1, g: 0.82, b: 0.25, a: 1}
+  - {r: 0.3, g: 0.64, b: 1, a: 1}
+  - {r: 0.7, g: 0.4, b: 1, a: 1}
+  StatItemColor: {r: 0.24, g: 0.9, b: 0.69, a: 1}
+  HealItemColor: {r: 1, g: 0.42, b: 0.54, a: 1}
+  MaxActiveSkills: 5
+  MaxSkillLevel: 5
+  SkillWarnTime: 5
+  ReleaseSlowMoDuration: 0.3
+  ReleaseSlowMoScale: 0.25
+  ReleaseZoom: 0.88
+  ReleaseZoomDuration: 0.8
+  MaxEnemies: 150
+  EnemySpeedCap: 1.05
+  SpawnMinDistance: 1100
+  SpawnDistanceJitter: 250
+  SpawnWallMargin: 150
+  StuckDistance: 3000
+  StuckTime: 10
+  EliteHpMultiplier: 5
+  EliteExpMultiplier: 5
+  EliteScale: 1.3
+  EnemyObstacleLookAhead: 90
+  HordeFirstTime: 60
+  HordeInterval: 60
+  HordeDurationMin: 3
+  HordeDurationMax: 5
+  HordeWarningTime: 1.5
+  HordeSpawnRateMultiplier: 4
+  ReviveHpFraction: 0.5
+  ReviveInvulnerability: 3
+  ReviveOfferSeconds: 10
+  CoinsPerMinute: 20
+  KillsPerCoin: 5

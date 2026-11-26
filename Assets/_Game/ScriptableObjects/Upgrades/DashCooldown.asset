@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c51a84f797662ca4da2950a1cb20d4a4, type: 3}
+  m_Name: DashCooldown
+  m_EditorClassIdentifier: RunChildRun::RunChildRun.MetaUpgradeDef
+  Id: dashcooldown
+  DisplayName: Dash Cooldown
+  Icon: {fileID: 0}
+  Kind: 3
+  BonusPerLevel: 0.01
+  Costs: 64000000c80000005e0100002602000020030000

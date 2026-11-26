@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca649195a764ab24797d8371b5542876, type: 3}
+  m_Name: Scatter
+  m_EditorClassIdentifier: RunChildRun::RunChildRun.SkillDef
+  Id: scatter
+  DisplayName: Scatter
+  Icon: {fileID: 0}
+  Color: {r: 0.6509804, g: 0.8901961, b: 1, a: 1}
+  Kind: 1
+  InStarterPool: 1
+  RequiresUnlock: 0
+  UnlockCost: 600
+  Levels:
+  - Damage: 6
+    Cooldown: 1.1
+    Count: 3
+    Range: 450
+    Area: 14
+    Speed: 1100
+    Pierce: 0
+    Knockback: 120
+    Special: 0
+  - Damage: 6
+    Cooldown: 1.1
+    Count: 4
+    Range: 450
+    Area: 14
+    Speed: 1100
+    Pierce: 0
+    Knockback: 120
+    Special: 0
+  - Damage: 7.5
+    Cooldown: 1.1
+    Count: 4
+    Range: 450
+    Area: 14
+    Speed: 1100
+    Pierce: 0
+    Knockback: 120
+    Special: 0
+  - Damage: 7.5
+    Cooldown: 1.1
+    Count: 4
+    Range: 562
+    Area: 14
+    Speed: 1100
+    Pierce: 0
+    Knockback: 120
+    Special: 0
+  - Damage: 7.5
+    Cooldown: 1.1
+    Count: 6
+    Range: 562
+    Area: 14
+    Speed: 1100
+    Pierce: 0
+    Knockback: 120
+    Special: 0
+  LevelDescriptions:
+  - 3 short-range pellets
+  - +1 pellet
+  - Damage +25%
+  - Range +25%
+  - +2 pellets
